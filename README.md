@@ -17,10 +17,10 @@ Instantiate and configure multiple vMXs for cloud deployment, and fetch their au
 
 This script automates the process of vMX creation within the Meraki dashboard, as well as getting back authentication tokens for ease of deployment into cloud environments like AWS, Azure and GCP. It does not automate the creation of resources within AWS, Azure or GCP, and is intended to be used in tandem with other resources like:
 
-1. AWS Quickstart for Meraki vMX
-2. AWS Quickstart for Meraki vMX and CloudWAN
-3. Azure vWAN Hubs with Meraki vMX
-4. GCP NCC with Meraki vMX
+1. [Cisco Meraki Virtual MX on the AWS Cloud](https://aws-quickstart.github.io/quickstart-cisco-meraki-sd-wan-vmx/)
+2. [Cisco Meraki Virtual MX with AWS Cloud WAN on the AWS Cloud Quickstart](https://aws-quickstart.github.io/quickstart-cisco-meraki-vmx-cloudwan/)
+3. [vMX and Azure vWAN](https://documentation.meraki.com/MX/Deployment_Guides/vMX_and_Azure_vWAN)
+4. [vMX as a Router Appliance for Google Network Connectivity Center](https://documentation.meraki.com/MX/Deployment_Guides/vMX_with_Google_Network_Connectivity_Center)
 
 The script will:
 
@@ -75,6 +75,9 @@ The script will:
 
 8. Deploy your cloud environment following one of the following guides:
 
-
+* [Cisco Meraki Virtual MX on the AWS Cloud](https://aws-quickstart.github.io/quickstart-cisco-meraki-sd-wan-vmx/)
+* [Cisco Meraki Virtual MX with AWS Cloud WAN on the AWS Cloud Quickstart](https://aws-quickstart.github.io/quickstart-cisco-meraki-vmx-cloudwan/)
+* [vMX and Azure vWAN](https://documentation.meraki.com/MX/Deployment_Guides/vMX_and_Azure_vWAN)
+* [vMX as a Router Appliance for Google Network Connectivity Center](https://documentation.meraki.com/MX/Deployment_Guides/vMX_with_Google_Network_Connectivity_Center)
 
 
