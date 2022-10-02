@@ -62,8 +62,17 @@ The script will:
 3. Run the script with `python main.py`. This can be run before you do any deployments within your public cloud, although take into consideration that the tokens will expire after 1 hour.
 4. The script will output to the console and to a `vmx_data.json` file the details of the created vMXs.
 5. Verify the creation of your vMXs and networks in the Meraki dashboard.
+
+![image alt text](images/networks_deployed.png)
+
 6. For each of your newly created vMX networks, navigate to `Security & SD-WAN` --> `Site-to-site VPN` and add a Local Network for each of the CIDR blocks contained in the VPCs in your AWS environment that you want your remote sites to have reachability to
+
+![image alt text](images/local_networks.png)
+
 7. For each of your remote SD-WAN sites, assign your regional vMXs as Hubs for them to have reachability to your AWS resources
+
+![image alt text](images/spoke_sites.png)
+
 8. Deploy your cloud environment following one of the following guides:
 
 
