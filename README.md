@@ -55,6 +55,7 @@ The script will:
 * Specify a `client_track` mode as `MAC address` or `IP address`
 * Specify the number of regions you will deploy in under `num_regions`
 * Specify the region names you will work on within your cloud provider under `regions` separated by commas. The number of values must match the value in `num_regions`. Your vMXs will be assigned the corresponding region tag.
+* Specify the vMX size of your images under `vmx_size` as `small`, `medium` or `large`
 * Specify the cloud environment you will work on as `aws`, `azure`, `gcp` or `alibaba`. Your vMXs will be assigned this tag
 * Specify the naming scheme for your Meraki networks for each pair of vMX networks. This list must have exactly the same number of values as specified by `num_regions`
 * Specify the summary ranges of your VPC/VNET networks under `vpc_summary_ranges`
