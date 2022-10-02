@@ -1,0 +1,54 @@
+[
+    {
+        "net_id": "N_123",
+        "net_name": "us_east_1-vMX1",
+        "vmx_serial": "Q123-A123-U123",
+        "vmx_name": "us_east_1-vMX1",
+        "vmx_tags": [
+            "vMX1"
+        ],
+        "region": "us-east-1",
+        "vpc_subnet": "10.210.0.0/16",
+        "token": "123123123123",
+        "expiration": "2022-10-02T23:58:57Z"
+    },
+    {
+        "net_id": "N_234",
+        "net_name": "us_east_1-vMX2",
+        "vmx_serial": "Q234-R234-V234",
+        "vmx_name": "us_east_1-vMX2",
+        "vmx_tags": [
+            "vMX2"
+        ],
+        "region": "us-east-1",
+        "vpc_subnet": "10.210.0.0/16",
+        "token": "234234234234",
+        "expiration": "2022-10-02T23:58:58Z"
+    },
+    {
+        "net_id": "N_345",
+        "net_name": "us_west_1-vMX3",
+        "vmx_serial": "Q345-E345-8345",
+        "vmx_name": "us_west_1-vMX3",
+        "vmx_tags": [
+            "vMX3"
+        ],
+        "region": "us-west-1",
+        "vpc_subnet": "10.211.0.0/16",
+        "token": "345345345345",
+        "expiration": "2022-10-02T23:59:00Z"
+    },
+    {
+        "net_id": "N_456",
+        "net_name": "us_west_1-vMX4",
+        "vmx_serial": "Q456-L456-N456",
+        "vmx_name": "us_west_1-vMX4",
+        "vmx_tags": [
+            "vMX4"
+        ],
+        "region": "us-west-1",
+        "vpc_subnet": "10.211.0.0/16",
+        "token": "456456456456",
+        "expiration": "2022-10-02T23:59:02Z"
+    }
+]
