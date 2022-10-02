@@ -7,6 +7,7 @@ org_name = ""
 # client_track = MAC address or IP address
 deployment_mode = "passthrough"
 client_track = "MAC address"
+vpn_mode = "hub"
 # Cloud Settings
 num_regions = 2
 regions = ['us-east-1', 'us-west-1']
