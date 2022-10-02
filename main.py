@@ -39,7 +39,12 @@ for i in range(2*config.num_regions):
         name=f"{config.region_name_prefixes[int(i/2)]}-vMX{i+1}",
         tags=[f"vMX{i+1}"]
     )
-
+    # Set up as Hub
+    hub = dashboard.appliance.updateNetworkApplianceVpnSiteToSiteVpn(
+        networkId=net['id'],
+        mode=config.vpn_mode
+    )
+    
     # Obtain the authentication token for the vMX
     token = dashboard.appliance.createDeviceApplianceVmxAuthenticationToken(serial=vmx['serial'])
     passthrough = dashboard.appliance.updateNetworkApplianceSettings(
