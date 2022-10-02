@@ -11,8 +11,6 @@ Instantiate and configure multiple vMXs for cloud deployment, and fetch their au
 
 [How to use](#howtouse)
 
-[References](#references)
-
 <a id="intro"></a>
 
 # Introduction
@@ -64,8 +62,6 @@ The script will:
 4. The script will output to the console and to a `vmx_data.json` file the details of the created vMXs.
 5. Verify the creation of your vMXs and networks in the Meraki dashboard.
 6. Deploy your cloud environment following one of the following guides:
-
-<a id="references"></a>
 
 
 
