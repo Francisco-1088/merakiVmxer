@@ -63,7 +63,7 @@ The script will:
 4. The script will output to the console and to a `vmx_data.json` file the details of the created vMXs.
 5. Verify the creation of your vMXs and networks in the Meraki dashboard.
 
-![image alt text](images/networks_deployed.png)
+![image alt text](images/deployed_networks.png)
 
 6. For each of your newly created vMX networks, navigate to `Security & SD-WAN` --> `Site-to-site VPN` and add a Local Network for each of the CIDR blocks contained in the VPCs in your AWS environment that you want your remote sites to have reachability to
 
