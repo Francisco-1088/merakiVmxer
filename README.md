@@ -24,7 +24,7 @@ This script automates the process of vMX creation within the Meraki dashboard, a
 
 The script will:
 
-1. Create 2 vMX networks for every 2 regions specified in config.py
+1. Create 2 vMX networks for every region specified in config.py
 2. Tag said vMXs with a number of functional tags described later in this document
 3. Configure each of these vMXs in passthrough (default) or routed mode
 4. Retrieve the authentication token for each of them (has finite expiration)
